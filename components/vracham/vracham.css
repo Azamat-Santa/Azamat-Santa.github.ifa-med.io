@@ -1,0 +1,57 @@
+.vrachamHeader {
+    width: 100%;
+    height: 90vh;
+    background-image: url('../../img/vrach.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    /* border-radius: 40px 32px 172px 156px / 0px 0px 150px 150px; */
+    margin-bottom: 30px;
+}
+.ifaTitVrachOne{
+    color:#42B4DF;
+}
+.ifaTitVrachTwo{
+    color: #8D8D8D;
+
+}
+.headerBtnVr{
+    background: #8D8D8D;
+    color:white;
+}
+.sectionVracham {
+    width: 100%;
+
+}
+.sectionVrachamContent {
+    width: 70%;
+    margin: 0 auto;
+}
+.vrachContentPTSR {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.PTSRPulsImg{
+    position: relative;
+    font-size: 40px;
+    color:#42B4DF;
+
+}
+.PTSRPulsImg::after{
+    content:'';
+    
+        background-image: url('../../img/puls.png');
+        background-repeat:no-repeat;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: -50%;top: 60%;
+       
+    
+    
+
+}

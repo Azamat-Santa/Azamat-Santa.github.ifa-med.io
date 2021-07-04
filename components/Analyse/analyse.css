@@ -1,0 +1,86 @@
+.analyseHeader{
+    width: 100%;
+    background: url('../../img/455.png');
+    background-size: 100% 100%;
+    padding: 5px;
+
+}
+.footerHeaderContent{
+    margin: 0 auto;
+    width: 80%;
+   
+}
+.secOneAnalyse {
+    width: 100%;
+}
+.secOneAnalyseContent {
+    width: 80%;
+    margin:  auto;
+    padding: 10px;
+    text-align: center;
+}
+.secOneAnalyseCard {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    -webkit-box-shadow: 0px 0px 11px -2px #000000; 
+    box-shadow: 0px 0px 11px -2px #000000;
+    cursor: pointer;
+    margin-top: 100px;
+    
+}
+.active{
+display: none;
+}
+
+
+ul li {
+    list-style: none; /* убираем дефолтные маркеры */
+}
+
+.list span {
+    cursor: pointer;
+}
+.show{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    -webkit-box-shadow: 0px 0px 11px -2px #000000; 
+    box-shadow: 0px 0px 11px -2px #000000;
+    cursor: pointer;
+    padding: 10px 60px;
+ 
+}
+.mt{
+    margin: 50px auto;
+   
+}
+
+
+.vis{
+    display: none;
+    margin: 0 auto;
+}
+.vis li{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.db{
+    display: block;
+}
+li strong{
+    width: 50px;height: 50px;
+    border-radius:50%;
+    background: rgb(16, 109, 126);
+    display: flex;align-items: center;justify-content: center;
+}
+li em{
+    width: 200px;height: 50px;
+    border-radius:50px;
+    font-style: normal;
+    background: rgb(16, 109, 126);
+    display: flex;align-items: center;justify-content: center;
+}

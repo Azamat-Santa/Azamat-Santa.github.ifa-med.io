@@ -1,0 +1,654 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.homeHeaderContentKontact {
+    display: flex;
+
+
+}
+
+.homeHeader {
+    width: 100%;
+    height: 90vh;
+    background-image: url('img/937.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    /* border-radius: 40px 32px 172px 156px / 0px 0px 150px 150px; */
+}
+
+.homeHeaderContent {
+    width: 75%;
+}
+
+.headerHamburgerAndSotseti{
+    display: flex;
+    width: 100%;
+   
+}
+
+.homeHeaderContentKontact div {
+    display: flex;
+    color: #42B4DF;
+    margin: 20px;
+}
+
+.homeHeaderContentKontact img {
+    margin-right: 10px;
+}
+
+.headerNav {
+    display: flex;
+    -webkit-box-shadow: 0px 0px 6px 1px #000000;
+    box-shadow: 0px 0px 6px 1px #000000;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    overflow: hidden;
+}
+
+.headerNavNavigtion {
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    width: 150%;
+}
+
+.headerNavNavigtion div {
+
+    padding: 10px;
+}
+
+.headerNavNavigtion a {
+    text-decoration: none;
+    transition: .4s;
+    color: black;
+    font-size: 12px;
+
+}
+
+.headerNavNavigtion a:hover {
+    color: #42B4DF;
+}
+
+.headerNavSotsSeti {
+    background: #42B4DF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+
+
+}
+
+.headerHeading {
+    margin-top: 10%;
+}
+
+.headerNavSotsSetiImg {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.headerHeadingKlinik {
+    color: #42B4DF;
+    font-size: 80px;
+}
+
+.headerHeadingDiagn {
+    color: #6B6B6B;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.headerHeadingIfa {
+    color: #42B4DF;
+    font-size: 60px;
+}
+
+.headerBtn {
+    padding: 10px;
+    background: #42B4DF;
+    color: white;
+    width: 20%;
+    border-radius: 50px;
+}
+
+.headerFixedKontackt {
+    position: fixed;
+    top: 80%;
+    right: 0%;
+    width: 5%;
+    height: 20%;
+    z-index: 30;
+
+}
+
+/* -------------------sectionLabaratoriya---------------------------- */
+.sectionLabaratoriya {
+    width: 100%;
+    display: flex;
+    margin-top: 10%;
+
+}
+
+.sectionLabaratoriyaContent {
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+
+.sectionLabaratoriyaTitle {
+    width: 60%;
+    text-align: center;
+    color: grey;
+    font-size: 20px;
+    margin: 0 auto;
+
+}
+
+.sectionLabaratoriyaTitleStrong {
+    font-size: 30px;
+    color: #42B4DF;
+}
+
+.sectionLabaratoriyaCardWrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sectionLabaratoriyaCard {
+    width: 25%;
+    text-align: center;
+    margin-top: 5%;
+    transition: .4s;
+    padding: 5px;
+}
+
+.sectionLabaratoriyaCard:hover {
+    box-shadow: 0px 0px 20px -6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 20px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 20px -6px rgba(0, 0, 0, 0.75);
+}
+
+
+.sectionInlineShadowLeftOverflow {
+    position: relative;
+    width: 10%;
+    
+    overflow: hidden;
+}
+
+.sectionInlineShadowRightOverflow {
+    position: relative;
+    width: 10%;
+   
+    overflow: hidden;
+}
+
+.sectionInlineShadowLeft {
+    -webkit-box-shadow: 5px 5px 10px 0px rgb(0 0 0 / 55%);
+    height: 170%;
+    width: 200%;
+    position: absolute;
+    top: -20%;
+    left: -120%;
+    border-radius: 50%;
+}
+
+.sectionInlineShadowRight {
+    box-shadow: -5px -5px 10px 0px rgb(0 0 0 / 55%);
+
+    height: 170%;
+    width: 200%;
+    position: absolute;
+    top: -20%;
+    right: -120%;
+    border-radius: 50%;
+   
+}
+
+/* ====================sectNashiPreimushestva============= */
+
+.sectNashiPreimushestva{
+    width: 100%;
+    display: flex;
+    height: 70vh;
+    background: #F0F2F1;
+    margin-top: 5%;
+}
+.sectNashiPreimushestvaRight{
+    width: 60%;
+    background-image: url('img/315891-P8RUWI-712.png');
+   
+}
+
+.sectNashiPreimushestvaLeftCard{
+    display: flex;
+    align-items: center;
+    border-left: 5px solid #42B4DF;
+    position: relative;
+    color:grey;
+    margin: 3.1%;
+}
+.sectNashiPreimushestvaLeftCard img{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.sectNashiPreimushestvaLeftCardNum{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #42B4DF;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    left: -10%;
+}
+.sectNashiPreimushestvaRight{
+    position: relative;
+}
+
+.sectNashiPreimushestvaRightTitle{
+    position: absolute;
+    top: 30%;
+    left: 55%;
+    color:#42B4DF ;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/*..................... sectionUzi */
+.sectionUzi{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionUziContent{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.sectionUziPuls{
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 5%;
+    
+
+}
+.homeHeader{
+    padding: 10px;
+}
+
+.sectionUziPuls img{
+    width: 100%;
+    height: 100%;
+}
+.sectionUziP h4{
+    color:#42B4DF;
+    font-weight: bold;
+    font-size: 17px;
+}
+.sectionUziP{
+    color:grey;
+}
+
+/* footer===================================== */
+
+
+.homeFooter{
+    background:#42B4DF ;
+    border-top-left-radius: 80%;
+    border-top-right-radius: 80%;
+    height: 30vh;
+    width: 100%;
+    padding-top: 5%;
+    margin-top: 5%;
+    position: relative;
+   
+}
+.headerNavNavigtionFooter{
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    width: 70%;
+    border-radius: 50px;
+    margin:  auto;
+}
+.headerNavNavigtionFooter div {
+
+    padding: 10px;
+    font-size: 12px;
+}
+.headerNavNavigtionFooter div a{
+    text-decoration: none;
+    color:black;
+}
+.homeFooterContact{
+    width: 40%;
+    display: flex;
+    margin: 20px auto;
+}
+.headerNavNavigtionFooter div a:hover{
+    text-decoration: none;
+    color: #388092;;
+}
+.homeFooterContactBtn{
+    padding: 10px;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    cursor: pointer;
+}
+.homeFooterContactImg{
+    display: flex;align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+.btnUp{
+    width: 45px;height: 45px;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    bottom: -20px;
+    left: 46%;
+    display: flex;
+    justify-content: center;
+    
+    font-size: 30px;
+}
+
+
+/* ===================burger menu */
+
+/* скрываем чекбокс */
+#menu__toggle {
+    opacity: 0;
+  }
+  /* стилизуем кнопку */
+  .menu__btn {
+    display: flex; /* используем flex для центрирования содержимого */
+    align-items: center;  /* центрируем содержимое кнопки */
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  /* добавляем "гамбургер" */
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+  /* контейнер меню */
+.menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    text-align: center;
+    background-color: #ECEFF1;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  }
+  /* элементы меню */
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .menu__item:hover {
+    background-color: #CFD8DC;
+  }
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 0;
+  }
+  .menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  transition-duration: .25s;
+}
+.menu__box {
+  transition-duration: .25s;
+}
+.menu__item {
+  transition-duration: .25s;
+}
+
+/* ----------------------- */
+@media screen  and (min-width:500px) {
+    .hamburger-menu{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:920px){
+    
+    .headerFixedKontackt{
+        width: 10%;
+    }
+    .homeHeaderContent {
+        width: 85%;
+    }
+    .homeFooter {
+        height: 25vh;
+    }
+}
+@media screen and (max-width:768px){
+    .headerNavNavigtion{
+        width: 80%;
+    }
+    
+    .headerNavNavigtion a{
+        font-size: 10px;
+    }
+    .headerHeadingKlinik{
+        font-size: 40px;
+    }
+.headerHeadingDiagn{
+    font-size: 30px;
+}
+.headerHeadingIfa{
+    font-size: 50px;
+}
+.headerBtn{
+    font-size: 10px;
+}
+p{
+    font-size: 10px;
+}
+.headerNavNavigtionFooter{
+    font-size: 10px;
+}
+}
+
+@media screen and (min-width:500px) {
+    .hamburger-menu{
+        display: none;
+    }
+    .headerNavSotsSeti{
+ width: 100% !important;
+    }
+}
+
+
+@media screen and (max-width:500px){
+    
+    .homeHeader{
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        height: auto;
+        margin-top: 10vh;
+    }
+    .homeHeaderContentKontact{
+        display: none;
+    }
+
+    .headerNav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        z-index: 10;
+    }
+    .headerHeadingKlinik{
+        font-size: 15px;
+    }
+.headerHeadingDiagn{
+    font-size: 15px;
+}
+.headerHeadingIfa{
+    font-size: 15px;
+}
+.headerBtn{
+    font-size: 10px;
+}
+.sectionLabaratoriyaCard {
+    width: 50%;
+}
+.headerNavNavigtionFooter{
+    display: none;
+}
+.homeFooterContact{
+    width: 60%;
+}
+.headerFixedKontackt{
+  width: 15%;
+}
+.sectNashiPreimushestvaRight{
+    display: none;
+}
+.sectNashiPreimushestvaLeftCard img{
+    width: 30px;
+}
+
+.sectNashiPreimushestvaLeft{
+    background-image: url('img/315891-P8RUWI-712\ \(1\).png');
+    height: auto;
+   
+    background-repeat: no-repeat;
+
+}
+
+.sectNashiPreimushestvaLeftCard{
+    margin: 7% 3% 7% 40%;
+
+}
+.sectNashiPreimushestvaLeftCardNum{
+    display: none;
+}
+.sectNashiPreimushestva{
+    height: auto;
+}
+.headerNavNavigtion {
+    display: none;
+
+}
+.hamburger-menu{
+    width: 50%;
+}
+.headerNavSotsSeti{
+    width: 50%;
+}
+.headerNav{
+    width: 100%;
+    height: 10vh;
+    box-shadow: none;
+    
+}
+.sectionInlineShadowRightOverflow{
+    display: none;
+}
+.sectionInlineShadowLeftOverflow{
+    display: none;
+}
+.sectionUziContent{
+    display: flex;
+    flex-direction: column;
+}
+.headerBtn{
+    width: 30%;
+}
+.homeFooter{
+    height: 15vh;
+}
+
+}
+@media screen and (max-width:325px){
+   
+    .menu__btn{
+        width: 20px;
+        height: 20px;
+        top: 10px;left: 10px;
+    }
+    .homeFooterContact{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .btnUp{
+        width: 20px;height: 20px;
+    }
+}
+
+
+
+
+
+

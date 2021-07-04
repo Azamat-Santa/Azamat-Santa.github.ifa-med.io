@@ -1,0 +1,114 @@
+.homeHeaderKlientam{
+    width: 100%;
+    height: 90vh;
+    background-image: url('../../img/bgFonKlientam.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    /* border-radius: 40px 32px 172px 156px / 0px 0px 150px 150px; */
+}
+.clientContent{
+    width: 80%;margin: 0 auto;
+}
+.klHeaderTitle{
+    margin-top: 10%;
+}
+.klHeaderTitleOne{
+    font-size: 60px;
+    color: #42B4DF;  
+    font-weight: bold; 
+    margin-top: 20px;
+}
+.klHeaderTitleTwo{
+    font-size: 40px;
+    color: #42B4DF;
+    font-weight: normal;   
+}
+.klHeaderTitleThree{
+    font-size: 30px;
+    color: #8D8D8D; 
+    margin-top: 50px;  
+    font-weight: bold;
+}
+.klHeaderTitleFour{
+    font-size: 20px;
+   color:white;
+   background: #8D8D8D;
+    border-radius:50px;  
+    width: 30%;
+    padding: 5px;
+    text-align: center; 
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.clientSectionOne {
+width: 100%;
+text-align: center;
+margin-top: 5vh;
+}
+.clientSectionOneTitleSdacha {
+    color: #8D8D8D; 
+    font-size: 30px;
+   
+}
+.clientSectionOneTitle p{
+    font-size: 30px;
+    color: #42B4DF;
+}
+.clientSectionOneTitleSdachaAfter{
+    position: relative;
+}
+.clientSectionOneTitleSdachaAfter:after{
+    content:'';
+    background: url('../../img/puls.png');
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: -50%;top: 60%;
+   
+}
+
+.clientSectionOneImportant{
+    display: flex;
+    margin-top: 5vh;
+}
+.clientSectionOneImportantCard{
+    width: 32%;
+    margin: 20px;
+   
+}
+.clientSectionOneImportantCard div{
+    margin-top: 10px;
+    border-radius:20px;
+    padding: 10px;
+    box-shadow: 0px 0px 11px 0px rgba(107, 106, 202, 0.93);
+
+}
+.clientSectionOneImportantCardRed{
+    color:red !important;
+}
+.clientSectionOneImportantCard h3{
+    color: #42B4DF;
+}
+.clientSectionOneImportantCardRedShadow{
+   
+box-shadow: 0px 0px 11px 0px rgba(250, 190, 210, 0.93) !important;
+}
+.secTwo{
+    color:gray;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+.secTwo h3{
+    font-size: 20px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.secTwoWrapper{
+    width: 90%;
+    padding: 10px;
+}
