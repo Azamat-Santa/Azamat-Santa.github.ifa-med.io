@@ -10,3 +10,14 @@
     border-bottom-left-radius: 30%;
     border-bottom-right-radius: 30%
 }
+@media screen and (max-width:600px) {
+    .abouteHeader{
+        border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    height: 60vh;
+    
+    }
+    .aboutBtn{
+        width: 60% !important;
+    }
+}

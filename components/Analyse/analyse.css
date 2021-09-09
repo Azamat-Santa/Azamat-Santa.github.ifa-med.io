@@ -2,7 +2,7 @@
     width: 100%;
     background: url('../../img/455.png');
     background-size: 100% 100%;
-    padding: 5px;
+    padding: 15px 5px 5px 5px;
 
 }
 .footerHeaderContent{
@@ -71,16 +71,63 @@ ul li {
 .db{
     display: block;
 }
-li strong{
-    width: 50px;height: 50px;
-    border-radius:50%;
-    background: rgb(16, 109, 126);
-    display: flex;align-items: center;justify-content: center;
-}
+
 li em{
     width: 200px;height: 50px;
     border-radius:50px;
     font-style: normal;
-    background: rgb(16, 109, 126);
+    background:#42B4DF;
     display: flex;align-items: center;justify-content: center;
+}
+.acorCard{
+    display: flex;width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.acorOne{
+    width: 50px;height: 50px;
+    border-radius:50%;
+    background:#42B4DF;
+    display: flex;align-items: center;justify-content: center;
+}
+.som{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#42B4DF;
+
+}
+.accordion-body{
+    padding: 0 !important;
+}
+#collapseOne{
+    padding: 10px !important;
+}
+#collapseTwo{
+    padding: 10px !important;
+}
+#collapseThree{
+    padding: 10px !important;
+}
+.analyseTitle{
+    width: 100%;
+    color:grey;
+    text-align: center;padding: 10px;
+    font-size: 22px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+@media screen and (max-width:500px) {
+    .som{
+        width: 120px;
+    }
+    .acorOne{
+        width: 30px;
+        height: 30px;
+    }
 }

@@ -112,3 +112,66 @@ box-shadow: 0px 0px 11px 0px rgba(250, 190, 210, 0.93) !important;
     width: 90%;
     padding: 10px;
 }
+
+@media screen  and (max-width:800px){
+    .sectionInlineShadowRightOverflow{
+        display: none;
+    }
+    .sectionInlineShadowLeftOverflow{
+        display: none;
+    }
+}
+@media screen and (max-width:700px) {
+    .homeHeaderKlientam{
+        
+        height: 80vh;
+     
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    
+    }
+}
+
+@media screen and (max-width:600px) {
+    .clientSectionOneImportant{
+        flex-direction: column;
+    }
+    .clientSectionOneImportantCard{
+        width: 100%;
+    }
+    
+    .klHeaderTitle {
+        margin-top: 0;
+    }
+    .klHeaderTitleOne{
+        margin-top: 0;
+    }
+    .klHeaderTitleFour{
+        font-size: 15px;
+        width: 40%;
+    }
+}
+@media screen and (max-width:450px) {
+    .klHeaderTitleOne{
+        font-size: 40px;
+    }
+    .klHeaderTitleTwo{
+        font-size: 30px;
+    }
+    .klHeaderTitleThree{
+        font-size: 25px;
+    }
+    .klHeaderTitleFour{
+        font-size: 15px;
+        width: 50%;
+    }
+    .homeHeaderContentKontact{
+        margin-top: 15%;
+    }
+    .clientSectionOneImportantCard {
+        margin: 5px;
+    }
+    .homeHeaderKlientam{
+        height: 60vh;
+    }
+}

@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./components/Klientam/klient.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
 
 <body>
@@ -36,22 +39,22 @@
                 </div>
 
                 <div class="headerHamburgerAndSotseti">
-                    <div class="hamburger-menu" style="width: 50%;">
+                    <div class="hamburger-menu">
                         <input id="menu__toggle" type="checkbox" />
                         <label class="menu__btn" for="menu__toggle">
                             <span></span>
                         </label>
                         <ul class="menu__box">
-                            <li><a class="menu__item" href="#">Главная</a></li>
-                            <li><a class="menu__item" href="#">Клиентам</a></li>
-                            <li><a class="menu__item" href="#">Врачам</a></li>
-                            <li><a class="menu__item" href="#">Анализы и цены</a></li>
-                            <li><a class="menu__item" href="#">Результаты</a></li>
-                            <li><a class="menu__item" href="#">О нас</a></li>
-                            <li><a class="menu__item" href="#">Контакты</a></li>
+                            <li><a class="menu__item" href="./index.html">Главная</a></li>
+                            <li><a class="menu__item" href="./components/Klientam/klient.html">Клиентам</a></li>
+                            <li><a class="menu__item" href="./components/vracham/vracham.html">Врачам</a></li>
+                            <li><a class="menu__item" href="./components/Analyse/analyse.html">Анализы и цены</a></li>
+                            <li><a class="menu__item" href="./components/result/result.html">Результаты</a></li>
+                            <li><a class="menu__item" href="./components/aboutUse/aboutUse.html">О нас</a></li>
+                            <li><a class="menu__item" href="./components/contacts/contact.html">Контакты</a></li>
                         </ul>
                     </div>
-                    <div class="headerNavSotsSeti" style="width: 50%;">
+                    <div class="headerNavSotsSeti">
                         <div class="headerNavSotsSetiImg">
                             <img src="img/facebook.png" alt="">
                             <img src="img/metka.png" alt="">
@@ -63,14 +66,14 @@
 
             </nav>
 
+            <div class="klHeaderTitle" style="margin-top: 3%;">
+                <div class="klHeaderTitleOne">Клинико </div>
+                <div class="klHeaderTitleTwo">диагностическая лаборатория</div>
+                <div class="klHeaderTitleThree" style="margin-top: 10px;">ифа - витамед</div>
+                <div class="klHeaderTitleFour">Работаем с 2002 года.</div>
 
-            <div class="headerHeading">
-                <p class="headerHeadingKlinik">Клинико-</p>
-                <p class="headerHeadingDiagn">диагностическая лаборатория</p>
-                <p class="headerHeadingIfa"> ифа - витамед</p>
             </div>
 
-            <div class="headerBtn">Работаем с 2002 года.</div>
         </div>
         <img src="img/fixedImg.png" class="headerFixedKontackt">
 
@@ -217,30 +220,30 @@
     <footer class="homeFooter">
 
         <div class="headerNavNavigtionFooter">
-            <div><a href="">Главная</a></div>
-            <div><a href="">Клиентам</a></div>
-            <div><a href="">Врачам</a></div>
-            <div><a href="">Анализы и цены</a></div>
-            <div><a href="">Результаты</a></div>
-            <div><a href="">О нас</a></div>
-            <div><a href="">Контакты</a></div>
+            <div><a href="../../index.html">Главная</a></div>
+            <div><a href="../Klientam/klient.html">Клиентам</a></div>
+            <div><a href="../vracham/vracham.html">Врачам</a></div>
+            <div><a href="../Analyse/analyse.html">Анализы и цены</a></div>
+            <div><a href="../result/result.html">Результаты</a></div>
+            <div><a href="../aboutUse/aboutUse.html">О нас</a></div>
+            <div><a href="../contacts/contact.html">Контакты</a></div>
         </div>
 
         <div class="homeFooterContact">
             <div class="homeFooterContactBtn">
-                <img src="img/iconTrubka.png" alt="">
+                <img src="../../img/iconTrubka.png" alt="">
                 <p>+996555 15 85 65</p>
             </div>
             <div class="homeFooterContactImg">
-                <img src="img/whatsapp.png" alt="">
-                <img src="img/facebook.png" alt="">
-                <img src="img/metka.png" alt="">
+                <img src="./img/whatsapp.png" alt="">
+                <img src="./img/facebook.png" alt="">
+                <img src="./img/metka.png" alt="">
             </div>
 
         </div>
 
         <div class="btnUp">
-            <div class="btnUpStrelka"><img src="img/Vector (13).png" alt=""></div>
+            <div class="btnUpStrelka"><img src="./img/Vector (13).png" alt=""></div>
         </div>
 
     </footer>
@@ -251,6 +254,9 @@
 
 
     <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

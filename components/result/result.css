@@ -8,6 +8,7 @@
     justify-content: center;
     border-bottom-left-radius: 30%;
     border-bottom-right-radius: 30%;
+    padding: 10px;
     /* border-radius: 40px 32px 172px 156px / 0px 0px 150px 150px; */
 }
 .headerHeadingInput{
@@ -45,11 +46,13 @@
 .resultTextHeaderTwo{
     color:red;
     width: 50%;
+    font-size: 11px;
 }
 .resultTextHeaderOne{
     margin-top: 20px;
     margin-bottom: 20px;
     width: 50%;
+    font-size: 11px;
 }
 
 .resultSectionOne {
@@ -66,10 +69,10 @@
     background: #F9FAFA;
     width: 70%;
     padding: 15px;
+    text-align: center;
 }
 .resultSectionOneContentTitle {
-    margin: 10px auto 30px auto;
-    width: 20%;
+    margin-bottom: 10px;
     color:gray;
     font-size: 30px;
 }
@@ -142,4 +145,35 @@ color:#42B4DF;
 font-weight: bold;
 font-size: 15px;
 
+}
+.resultSectionOneContentBlockRetsept{
+    color:grey;
+    font-weight: bold;
+}
+@media screen and (max-width:600px) {
+    .headerHeadingInput{
+        width: 55%;
+    }
+    .resultHeader{
+        border-bottom-left-radius:0%;
+        border-bottom-right-radius: 0%;
+        height: 70vh;
+    }
+    .resultTextHeaderOne{
+        width: 60%;
+        font-size: 9px;
+    }
+    .resultTextHeaderTwo{
+        width: 60%;
+        font-size: 9px;
+    }
+    .resultSectionOneContentBlockNumm{
+        width: 30px;
+        height: 30px;
+    }
+}
+@media screen and (max-width:500px) {
+    .resultSectionOneContentBlockRetsept{
+        font-size: 10px;
+    }
 }
