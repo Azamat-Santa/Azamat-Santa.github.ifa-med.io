@@ -157,7 +157,9 @@ font-size: 15px;
     .resultHeader{
         border-bottom-left-radius:0%;
         border-bottom-right-radius: 0%;
-        height: 70vh;
+        height: 45vh;
+    background-size: cover;
+
     }
     .resultTextHeaderOne{
         width: 60%;
@@ -168,11 +170,13 @@ font-size: 15px;
         font-size: 9px;
     }
     .resultSectionOneContentBlockNumm{
-        width: 30px;
-        height: 30px;
+        width: 25px;
+        height: 25px;
+        font-size: 10px;
     }
-}
-@media screen and (max-width:500px) {
+    .resultSectionOneContentNorma div{
+        font-size: 12px;
+    }
     .resultSectionOneContentBlockRetsept{
         font-size: 10px;
     }
