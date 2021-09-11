@@ -663,3 +663,8 @@ p{
         margin-top: 18%;
     }
 }
+@media screen and (max-width:1200px) {
+    .headerFixedKontackt{
+        height: 15%;
+    }
+}
